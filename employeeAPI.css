@@ -1,0 +1,160 @@
+body{
+	color: #B4B4B4;
+ 	font-family: 'EB Garamond', serif;
+ 	margin: 0px;
+}
+
+#page{
+	width: 1200px;
+	margin: auto;
+	padding: 30px 10px;
+}
+
+#employeeList{
+	overflow: hidden;
+	padding: 15px 15px;
+	margin: 0px 0px;
+}
+
+.employeeCard{
+	border: 2px solid #A4A4A4;
+	border-radius: 20px 20px;
+	list-style: none;
+	padding: 15px 20px;
+	margin: 10px auto;
+	box-sizing: content-box;
+}
+
+.employeeCard:nth-child(3n+1){
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+
+.employeeCard:nth-child(3n+2){
+	float: left;
+	width: 300px;
+}
+
+.employeeCard:nth-child(3n+3){
+	float: right;
+	width: 300px;
+}
+.employeeCard:hover{
+	box-shadow: 0px 0px 15px 15px #C2C1AF;
+}
+
+h3{
+	color:#585858;
+	margin: 0px auto;
+	margin-left: 120px;
+	letter-spacing: 2px;
+}
+
+.infoAdjust{
+	float: right;
+	display: block;
+	overflow: hidden;
+}
+
+.image{
+	float: left;
+	border-radius: 70%;
+	display: block;
+}
+
+.info:first-child{
+	font-weight: bold;
+	color: #454242;
+	text-transform: capitalize;
+}
+
+.modalP, .info:last-child{
+	text-transform: capitalize;
+}
+
+.email{
+	text-transform: lowercase;
+}
+
+.modal{
+	display: block; 
+    position: fixed; 
+    margin: auto;
+    text-align: center;
+    z-index: 1; 
+    left: 570px;
+    top: 250px;
+    width: 20.2%; 
+    height: 450px; 
+    overflow: auto; 
+    background-color: #FAF9F0; 
+    border-radius: 2% 2%;
+}
+
+hr{
+	border: none;
+	border-bottom: medium double #212115;
+	border-top: medium double #212115 ;
+	margin: 10px 0px;
+	font-weight: bold;
+	line-height: 10px;
+	text-align: center;
+}
+
+.modalWindow{
+	background-color: none; 
+    display: none;       
+    position: fixed;
+    top: 0;              
+    right: 0;             
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+}
+
+#closeModal{
+	position: absolute;
+	top: 5px;
+	right: 20px;
+	width: 2px;
+	color: #20201F;
+	font-family: 
+}
+
+#closeModal::after{
+	content: 'X';
+}
+
+.modalInfo{
+	display: inline-block;
+	margin-top: 15px;
+	text-transform: capitalize;
+}
+
+#modalImage{
+	margin: 5px auto;
+	float: none;
+	width: 7em;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
